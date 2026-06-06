@@ -1021,7 +1021,7 @@ async function checkSlotAvailability(date, preserveSelection) {
       btn.style.opacity = '0.5';
     });
 
-    const response = await fetch(`${CHECK_SLOTS_URL}?date=${date}`,
+    const response = await fetch(`${CHECK_SLOTS_URL}?date=${date}`),
 });
     const data = await response.json();
 
