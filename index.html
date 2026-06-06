@@ -1023,7 +1023,7 @@ async function checkSlotAvailability(date, preserveSelection) {
 
     const response = await fetch(`${CHECK_SLOTS_URL}?date=${date}`, {
   headers: {
-    'ngrok-skip-browser-warning': 'true'
+    
   }
 });
     const data = await response.json();
@@ -1393,7 +1393,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
     const response = await fetch(, {
   method: 'POST',
   headers: {
-    'ngrok-skip-browser-warning': 'true'
+   
   },
   body: JSON.stringify(payload)
 });
