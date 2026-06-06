@@ -1387,10 +1387,10 @@ document.getElementById('bookingForm').addEventListener('submit', async function
     'Photos':              encodedPhotos.map((d,i) => ({ name: validFiles[i].file.name, data: d })),
   };
 
-  const WEBHOOK_URL = 'https://flashcard-unsure-running.ngrok-free.dev/webhook/booking';
+  const  = 'https://linko-bookinginstallation.duckdns.org/webhook/booking';
 
   try {
-    const response = await fetch(WEBHOOK_URL, {
+    const response = await fetch(, {
   method: 'POST',
   headers: {
     'ngrok-skip-browser-warning': 'true'
