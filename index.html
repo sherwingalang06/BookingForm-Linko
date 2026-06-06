@@ -1387,7 +1387,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
     'Photos':              encodedPhotos.map((d,i) => ({ name: validFiles[i].file.name, data: d })),
   };
 
-  const  = 'https://linko-bookinginstallation.duckdns.org/webhook/booking';
+  const WEBHOOK_URL = 'https://linko-bookinginstallation.duckdns.org/webhook/booking';
 
   try {
     const response = await fetch(, {
